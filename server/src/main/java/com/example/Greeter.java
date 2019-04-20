@@ -11,6 +11,10 @@ public class Greeter {
   public Greeter() {
 
   }
+/*
+@param someone the name of boss
+@return greeting string
+*/
 /* this is for comment to avoid warning */
   public final  String greet(final String someone) {
     return String.format("Hello, %s!", someone);
