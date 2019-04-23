@@ -3,7 +3,7 @@ pipeline {
     stages{
         stage('Build'){
             steps {
-                echo sushant
+                echo "sushant"
             }
             post {
                 success {
